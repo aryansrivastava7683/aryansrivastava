@@ -1,19 +1,11 @@
 :root {
     --main-white: #f0f0f0;
-    --main-red: #eb1733;
-    --main-blue: #45567d;
-    --main-trans: #ffffff00;
     --main-black: #000000;
-    --main-top-ic: 78vh;
-    --main-width-ic:5vw;
-    --main-height-ic:8vh;
-    --main-top-icc: 30vh;
     
-
   }
 
 body{
-    background-image: url(mbg.jpeg);
+    background-color: var(--main-black);
     background-size: cover;
     background-position:center;
     background-repeat: no-repeat;
@@ -29,26 +21,12 @@ body{
 
 #head-bg {
     background-color: var(--main-black);
-    display: flex;
-    justify-content: flex-end;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
+    position: relative;
+    top: 2%;
+    left: 4%;
+    font-size:medium;
 }
 
-.b-cont {
-    background-color: #000000a1;
-    display: flex;
-    justify-content: flex-end;
-    position: fixed;
-    width: 73%;
-    height: 90%;
-    top: 18vh;
-    left: 25vw;
-    right: 25vw;
-     
-}
 
 
 
@@ -59,8 +37,7 @@ body{
     border:none;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: var(--main-white);
-    width: 12vw;
-    height: 9vh;
+    
 }
 .bt:hover{
     filter: brightness(0.7);
@@ -69,152 +46,20 @@ body{
 .t1{
     color: var(--main-white);
     position: fixed;
-    top:22vh;
-    left: 56vw;
+    top:10%;
+    left:25%;
     font-size: 8vw;
 
 }
 
 .t2{
     color: var(--main-white);
-    position: fixed;
-    top:36vh;
-    left: 34vw;
-    font-size: 9vw;
-
-}
-
-.t2:hover{
-    filter: brightness(0.5);
-}
-
-
-
-
-.pil {
-   position: fixed;
-   top:var(--main-top-ic);
-   left:61vw;
-   width: var(--main-width-ic);
-   height:var(--main-height-ic);
-   &:hover{
-    filter: brightness(0.5);
-}
-
-}
-
-.pig {
-   position: fixed;
-   top:var(--main-top-ic);
-   left:50vw;
-   width: var(--main-width-ic);
-   height:var(--main-height-ic);
-   &:hover{
-    filter: brightness(0.5);
-}
-
-   
-}
-
-.pii {
+    position:absolute;
+    top:8%;
+    left:8%;
     
-    position: fixed;
-    top:var(--main-top-ic);
-    left:28vw;
-    width: var(--main-width-ic);
-    height:var(--main-height-ic);
-    &:hover{
-        filter: brightness(0.5);
-    }
-    
-    
- }
-
- .pid {
-    position: fixed;
-    top:var(--main-top-ic);
-    left:39vw;
-    width: var(--main-width-ic);
-    height:var(--main-height-ic);
-    &:hover{
-        filter: brightness(0.5);
-    }
-    
- }
- 
-.t-a1{
-    color: var(--main-white);
-    position: fixed;
-    top:18vh;
-    left: 28vw;
-    font-size: 180%;
+    font-size: 110%;
 
 }
 
-.t-a2{
-    color: var(--main-white);
-    font-family:monospace;
-    position: fixed;
-    top:25vh;
-    left: 27vw;
-    right:6vw;
-    font-size: 120%;
-    
 
-}
-
-.abl{
-    color: #ff0022;
-    
-}
-
-.pilc {
-    position: fixed;
-    top:var(--main-top-icc);
-    left:61vw;
-    width: var(--main-width-ic);
-    height:var(--main-height-ic);
-    &:hover{
-     filter: brightness(0.5);
- }
- 
- }
- 
- .pigc {
-    position: fixed;
-    top:var(--main-top-icc);
-    left:50vw;
-    width: var(--main-width-ic);
-    height:var(--main-height-ic);
-    &:hover{
-     filter: brightness(0.5);
- }
- 
-    
- }
- 
- .piic {
-     
-     position: fixed;
-     top:var(--main-top-icc);
-     left:28vw;
-     width: var(--main-width-ic);
-     height:var(--main-height-ic);
-     &:hover{
-         filter: brightness(0.5);
-     }
-     
-     
-  }
- 
-  .pidc {
-     position: fixed;
-     top:var(--main-top-icc);
-     left:39vw;
-     width: var(--main-width-ic);
-     height:var(--main-height-ic);
-     &:hover{
-         filter: brightness(0.5);
-     }
-     
-  }
